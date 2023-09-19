@@ -1,6 +1,6 @@
-#Backend Test
+# Backend Test
 
-##Problem
+## Problem
 Log ﬁles can tell much about a system’s behavior in a production environment.
 Extracting data from these ﬁles helps the decision-making process for both business
 and development roadmap.
@@ -22,7 +22,7 @@ You have been hired by iTaaS Solution to develop a system that can convert log �
 the desired format, which means that at this moment they need to convert them from
 the “MINHA CDN” format to the “Agora” format.
 
-##Examples
+## Examples
 
 This is a sample log ﬁle in the “MINHA CDN” format:
 
@@ -51,7 +51,7 @@ response-size cache-status
 "MINHA CDN" GET 200 /robots.txt 245 312 REFRESH\_HIT
 ```
 
-###Acceptace Criteria
+### Acceptace Criteria
 
 “MINHA CDN” will make log ﬁles through speciﬁc URLs.
 The speciﬁcation requires you to implement a Console Application that receives as input
