@@ -39,14 +39,10 @@ The sample above should generate the following log in the “Agora”format:
 
 #Date: 15/12/2017 23:01:06
 
-#Fields: provider http-method status-code uri-path time-taken
-
-response-size cache-status
+#Fields: provider http-method status-code uri-path time-taken response-size cache-status
 
 "MINHA CDN" GET 200 /robots.txt 100 312 HIT
-
 "MINHA CDN" POST 200 /myImages 319 101 MISS
-
 "MINHA CDN" GET 404 /not-found 143 199 MISS
 "MINHA CDN" GET 200 /robots.txt 245 312 REFRESH\_HIT
 ```
