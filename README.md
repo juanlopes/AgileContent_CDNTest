@@ -44,7 +44,7 @@ The sample above should generate the following log in the “Agora”format:
 "MINHA CDN" GET 200 /robots.txt 100 312 HIT
 "MINHA CDN" POST 200 /myImages 319 101 MISS
 "MINHA CDN" GET 404 /not-found 143 199 MISS
-"MINHA CDN" GET 200 /robots.txt 245 312 REFRESH\_HIT
+"MINHA CDN" GET 200 /robots.txt 245 312 REFRESH_HIT
 ```
 
 ### Acceptace Criteria
